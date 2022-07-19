@@ -45,4 +45,5 @@ The database and its ERD (Entity Relationship Diagram) can be found at project's
 - :file_folder: **Visualizations:** Contains my findings presented in proper visualizations.
 
 ## Visualizations
+![Q1](https://github.com/EmanuelGabbay/sql-sakila/blob/a715fbf8e952739d579825c6423449cfef587437/Visualizations/Q1%20-%20Top%20Film%20Category.png)
 ![Q2](https://github.com/EmanuelGabbay/sql-sakila/blob/112a11b7cb131f7e2d84c5c136fca5110b6b317d/Visualizations/Q2%20-%20Weekly%20Store%20Preformance.png)
