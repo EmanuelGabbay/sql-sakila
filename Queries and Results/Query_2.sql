@@ -1,12 +1,18 @@
-/*Question 2: Who are the top 10 customers in terms of total amount spent on rentals?*/
+-- This table shows weekly store payments of customers
+WITH t1 AS (SELECT st.store_id AS store,
+                   DATE_TRUNC('week', pay.payment_date) AS week,
+                   pay.amount AS payed
+			  FROM store st
+			  JOIN staff stf
+			  ON st.store_id = stf.store_id
+			  JOIN payment pay
+			  ON stf.staff_id = pay.staff_id
+			  ORDER BY week)
 
-SELECT CONCAT (cstm.first_name,' ',cstm.last_name) AS customer,
-	   SUM(p.amount) AS total_rentals
-  FROM rental r
-  JOIN payment p
-    ON r.rental_id = p.rental_id
-  JOIN customer cstm
-    ON r.customer_id = cstm.customer_id
- GROUP BY customer
- ORDER BY total_rentals DESC
- LIMIT 10;
+SELECT store,
+       DATE_PART('week', week) AS week_number,
+       SUM(payed) AS total_revenue
+  FROM t1
+ GROUP BY store, week_number
+ ORDER BY week_number,store;
+ 
