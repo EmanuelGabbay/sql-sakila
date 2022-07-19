@@ -1,8 +1,6 @@
 # SQL: Investigating Sakila DVD Rental Database :dvd:
 
 ## Introduction
-This is my first project on my journey to become a data scientist :eyeglasses: :bar_chart:
-
 In this project I used my SQL skills (`PostgreSQL`) to gain insigts from the Sakila DVD rental database.
 
 Based on the data I had, I started from asking questions that I would like to be answered in order to increase company's profits. Then, I wrote and executed the queries using the pgAdmin tool. Finally, I exported the results to Excel in order to create visualizations that showcase my findings.
@@ -35,10 +33,10 @@ The database and its ERD (Entity Relationship Diagram) can be found at project's
 
 ## Questions
 
-1. What is the most popular film category in each country (top 5 countries)?
-2. Who are the top 10 customers (in terms of total amount spent on rentals)?
-3. What was the average price payed on films by film rating?
-4. What is the running total amount payed on film rental on each week?
+1. What is the most popular film category in each country (top 10 countries by number of rentals)?
+2. How the stores are compared in terms of weekly revenue?
+3. What is the average time between rentals for each our active customers (shown by percentage of customers)? 
+4. What is the running total of the revenue for each week?
 
 ## Project Files
 
