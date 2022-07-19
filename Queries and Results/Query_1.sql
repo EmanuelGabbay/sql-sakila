@@ -39,4 +39,4 @@ WITH t1 AS (SELECT cnt.country,
    JOIN t2
      ON t1.country = t2.country AND t1.num_of_rentals = t2.num_of_rentals
   ORDER BY t2.num_of_rentals DESC
-  LIMIT 5;
+  LIMIT 10;
