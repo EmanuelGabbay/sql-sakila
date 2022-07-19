@@ -47,3 +47,5 @@ The database and its ERD (Entity Relationship Diagram) can be found at project's
 ## Visualizations
 ![Q1](https://github.com/EmanuelGabbay/sql-sakila/blob/a715fbf8e952739d579825c6423449cfef587437/Visualizations/Q1%20-%20Top%20Film%20Category.png)
 ![Q2](https://github.com/EmanuelGabbay/sql-sakila/blob/112a11b7cb131f7e2d84c5c136fca5110b6b317d/Visualizations/Q2%20-%20Weekly%20Store%20Preformance.png)
+![Q3](https://github.com/EmanuelGabbay/sql-sakila/blob/2d238f324fe0f5005ca324fec57db0557e10b8b7/Visualizations/Q3%20-%20Average%20Time%20Between%20Rentals.png)
+![Q4](https://github.com/EmanuelGabbay/sql-sakila/blob/2d238f324fe0f5005ca324fec57db0557e10b8b7/Visualizations/Q4%20-%20Running%20Total.png)
