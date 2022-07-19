@@ -43,3 +43,6 @@ The database and its ERD (Entity Relationship Diagram) can be found at project's
 - :file_folder: **Database:** Contains the Sakila Database (.tar) and its ERD (.pdf).
 - :file_folder: **Queries:** Contains the SQL queries used to answer the questions (.sql).
 - :file_folder: **Visualizations:** Contains my findings presented in proper visualizations.
+
+## Visualizations
+![Q2](https://github.com/EmanuelGabbay/sql-sakila/blob/112a11b7cb131f7e2d84c5c136fca5110b6b317d/Visualizations/Q2%20-%20Weekly%20Store%20Preformance.png)
