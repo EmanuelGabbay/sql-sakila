@@ -25,7 +25,7 @@ There are 14 tables in the database:
 - city – Stores the city names.
 - country – Stores the country names.
 
-It is worth mentioning that the database is also using *Composite Keys* in addition to *Primary Keys* and *Forigen Keys*. A table with a *Composite Key* does not have a unique key for each row in the table. Instead a combination of two or more columns serves as a unique identifier for each row.
+It is worth mentioning that the database is also using *Composite Keys* in addition to *Primary Keys* and *Forigen Keys*.
 
 **Disclaimer:** The database is "fake" and does not hold any genuine information.
 
@@ -41,5 +41,5 @@ The database and its ERD (Entity Relationship Diagram) can be found at project's
 ## Project Files
 
 - :file_folder: **Database:** Contains the Sakila Database (.tar) and its ERD (.pdf).
-- :file_folder: **Queries and Results:** Contains the SQL queries used to answer the questions (.sql) and their outputs (.csv).
-- :clipboard: **Report.pdf:** Contains my findings which presented in proper visualizations.
+- :file_folder: **Queries:** Contains the SQL queries used to answer the questions (.sql).
+- :file_folder: **Visualizations:** Contains my findings presented in proper visualizations.
